@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		99E01B8E1BA42F00B59C7428 /* Pods_WeatherReportDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635FB09181460C7DE61242E7 /* Pods_WeatherReportDemo.framework */; };
 		AC84DB2F23E89E6059B6DC74 /* Pods_WeatherReportDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11637CEDA27DDDE9489D106 /* Pods_WeatherReportDemoUITests.framework */; };
+		F7525D5E1FAA3C7100085826 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7525D5D1FAA3C7100085826 /* ServerManager.swift */; };
 		F75B09511FAA3242007F6FAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B09501FAA3242007F6FAB /* AppDelegate.swift */; };
-		F75B09531FAA3242007F6FAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B09521FAA3242007F6FAB /* ViewController.swift */; };
 		F75B09561FAA3242007F6FAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75B09541FAA3242007F6FAB /* Main.storyboard */; };
 		F75B09581FAA3242007F6FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75B09571FAA3242007F6FAB /* Assets.xcassets */; };
 		F75B095B1FAA3242007F6FAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75B09591FAA3242007F6FAB /* LaunchScreen.storyboard */; };
 		F75B09661FAA3242007F6FAB /* WeatherReportDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B09651FAA3242007F6FAB /* WeatherReportDemoTests.swift */; };
 		F75B09711FAA3242007F6FAB /* WeatherReportDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B09701FAA3242007F6FAB /* WeatherReportDemoUITests.swift */; };
+		F7BC359B1FAA3F8D00367F90 /* WeatherInformationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BC359A1FAA3F8D00367F90 /* WeatherInformationTableViewController.swift */; };
+		F7BC359E1FAA423E00367F90 /* WeatherInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BC359D1FAA423E00367F90 /* WeatherInfoTableViewCell.swift */; };
+		F7BC35A11FAA443D00367F90 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BC35A01FAA443D00367F90 /* DataManager.swift */; };
+		F7C0E2C41FABA007006316E2 /* WeatherForecastDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C0E2C31FABA007006316E2 /* WeatherForecastDataModel.swift */; };
+		F7C0E2C61FABAC4A006316E2 /* WeatherDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C0E2C51FABAC4A006316E2 /* WeatherDetailsViewController.swift */; };
+		F7C0E2C81FABBE76006316E2 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C0E2C71FABBE76006316E2 /* BaseViewController.swift */; };
 		F8CF4E9A6E0AFA60DE72A29A /* Pods_WeatherReportDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C213454E3467EA1FCF2DA5B /* Pods_WeatherReportDemoTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,9 +52,9 @@
 		BB439018A891680FCB4FB116 /* Pods-WeatherReportDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherReportDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherReportDemoTests/Pods-WeatherReportDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C11637CEDA27DDDE9489D106 /* Pods_WeatherReportDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherReportDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2272C12679BE9179541D50D /* Pods-WeatherReportDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherReportDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherReportDemoUITests/Pods-WeatherReportDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F7525D5D1FAA3C7100085826 /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ServerManager.swift; path = "Server Manager/ServerManager.swift"; sourceTree = "<group>"; };
 		F75B094D1FAA3242007F6FAB /* WeatherReportDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherReportDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75B09501FAA3242007F6FAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F75B09521FAA3242007F6FAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F75B09551FAA3242007F6FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F75B09571FAA3242007F6FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F75B095A1FAA3242007F6FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +65,12 @@
 		F75B096C1FAA3242007F6FAB /* WeatherReportDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherReportDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75B09701FAA3242007F6FAB /* WeatherReportDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherReportDemoUITests.swift; sourceTree = "<group>"; };
 		F75B09721FAA3242007F6FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7BC359A1FAA3F8D00367F90 /* WeatherInformationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherInformationTableViewController.swift; path = "View Controllers/WeatherInformationTableViewController.swift"; sourceTree = "<group>"; };
+		F7BC359D1FAA423E00367F90 /* WeatherInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherInfoTableViewCell.swift; sourceTree = "<group>"; };
+		F7BC35A01FAA443D00367F90 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataManager.swift; path = "Data Manager/DataManager.swift"; sourceTree = "<group>"; };
+		F7C0E2C31FABA007006316E2 /* WeatherForecastDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherForecastDataModel.swift; path = "Data Model/WeatherForecastDataModel.swift"; sourceTree = "<group>"; };
+		F7C0E2C51FABAC4A006316E2 /* WeatherDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherDetailsViewController.swift; path = "View Controllers/WeatherDetailsViewController.swift"; sourceTree = "<group>"; };
+		F7C0E2C71FABBE76006316E2 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = "View Controllers/BaseViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +149,12 @@
 		F75B094F1FAA3242007F6FAB /* WeatherReportDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F7C0E2C21FAB9FE0006316E2 /* Data Model */,
+				F7BC35A21FAA4E5300367F90 /* Server Manager */,
+				F7BC359C1FAA421900367F90 /* Views */,
+				F7BC359F1FAA441200367F90 /* Data Manager */,
+				F7BC35991FAA3F5C00367F90 /* View Controllers */,
 				F75B09501FAA3242007F6FAB /* AppDelegate.swift */,
-				F75B09521FAA3242007F6FAB /* ViewController.swift */,
 				F75B09541FAA3242007F6FAB /* Main.storyboard */,
 				F75B09571FAA3242007F6FAB /* Assets.xcassets */,
 				F75B09591FAA3242007F6FAB /* LaunchScreen.storyboard */,
@@ -163,6 +179,48 @@
 				F75B09721FAA3242007F6FAB /* Info.plist */,
 			);
 			path = WeatherReportDemoUITests;
+			sourceTree = "<group>";
+		};
+		F7BC35991FAA3F5C00367F90 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC359A1FAA3F8D00367F90 /* WeatherInformationTableViewController.swift */,
+				F7C0E2C51FABAC4A006316E2 /* WeatherDetailsViewController.swift */,
+				F7C0E2C71FABBE76006316E2 /* BaseViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F7BC359C1FAA421900367F90 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC359D1FAA423E00367F90 /* WeatherInfoTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F7BC359F1FAA441200367F90 /* Data Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC35A01FAA443D00367F90 /* DataManager.swift */,
+			);
+			name = "Data Manager";
+			sourceTree = "<group>";
+		};
+		F7BC35A21FAA4E5300367F90 /* Server Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F7525D5D1FAA3C7100085826 /* ServerManager.swift */,
+			);
+			name = "Server Manager";
+			sourceTree = "<group>";
+		};
+		F7C0E2C21FAB9FE0006316E2 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7C0E2C31FABA007006316E2 /* WeatherForecastDataModel.swift */,
+			);
+			name = "Data Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -465,8 +523,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F75B09531FAA3242007F6FAB /* ViewController.swift in Sources */,
+				F7BC359E1FAA423E00367F90 /* WeatherInfoTableViewCell.swift in Sources */,
+				F7BC35A11FAA443D00367F90 /* DataManager.swift in Sources */,
+				F7525D5E1FAA3C7100085826 /* ServerManager.swift in Sources */,
+				F7C0E2C41FABA007006316E2 /* WeatherForecastDataModel.swift in Sources */,
 				F75B09511FAA3242007F6FAB /* AppDelegate.swift in Sources */,
+				F7C0E2C81FABBE76006316E2 /* BaseViewController.swift in Sources */,
+				F7C0E2C61FABAC4A006316E2 /* WeatherDetailsViewController.swift in Sources */,
+				F7BC359B1FAA3F8D00367F90 /* WeatherInformationTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,7 +626,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -606,7 +670,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -621,6 +685,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3R2EZ5LMC2;
 				INFOPLIST_FILE = WeatherReportDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.Ashok.WeatherReportDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -635,6 +700,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3R2EZ5LMC2;
 				INFOPLIST_FILE = WeatherReportDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.Ashok.WeatherReportDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -723,6 +789,7 @@
 				F75B09771FAA3242007F6FAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F75B09781FAA3242007F6FAB /* Build configuration list for PBXNativeTarget "WeatherReportDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -731,6 +798,7 @@
 				F75B097A1FAA3242007F6FAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F75B097B1FAA3242007F6FAB /* Build configuration list for PBXNativeTarget "WeatherReportDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -739,6 +807,7 @@
 				F75B097D1FAA3242007F6FAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
